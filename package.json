@@ -1,0 +1,23 @@
+{
+    "name": "google-hackathon",
+    "version": "1.0.0",
+    "description": "OCR model for recognizing handwritten prescriptions",
+    "main": "app.py",
+    "scripts": {
+      "start": "python app.py",
+      "dev": "nodemon app.py"
+    },
+    "dependencies": {
+      "express": "^4.18.2",
+      "cors": "^2.8.5",
+      "axios": "^1.5.1"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.2"
+    },
+    "engines": {
+      "node": ">=14.0.0"
+    }
+
+  }
+  
